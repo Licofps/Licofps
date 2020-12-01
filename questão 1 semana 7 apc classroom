@@ -1,0 +1,12 @@
+carros=['FUSCA','VECTRA','CIVIC','ONIX','GOL']
+consumo=[20,15,5,30,25]
+maior=consumo[0]
+maiorpos=0
+for cons in range(len(consumo)):
+    if consumo[cons]>maior:
+        maior=consumo[cons]
+        maiorpos=cons
+print(f'o carro mais econômico é:{carros[maiorpos]}')
+
+
+
